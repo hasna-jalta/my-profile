@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Patrick+Hand&family=Square+Peg&display=swap');
+
+body{
+	background-color:#b586d3 ;
+	text-align: center;
+	padding: 30px;
+	border: 1px solid lightgrey;
+	border-color: #b586d3;
+}
+h1{
+font-family: 'Square Peg', cursive;
+color: #b586d3;
+}
+h2{
+	color: #2d6873;
+	font-family: arial;
+}
+.image{
+	width:250px;
+	border-radius: 50%;
+}
+.list-inline {
+	display: inline;
+	padding: 0px 6px;
+}
+
+
+
+a{
+	color:#b586d3 ;
+	transition: color 0.3s ease;
+}
+	a: hover{
+		color: black;
+	}
+
+	@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 10px solid #b586d3 ;
+  border-radius: 50px;
+}
